@@ -1,12 +1,12 @@
 
 import './App.css';
-// import PostComponent from './Components/PostsComponent';
-import TodoList from './Components/ToDoList';
+import PostComponent from './Components/Posts/PostsComponent';
+import TodoList from './Components/Todo/TodoList';
 
 function App() {
   return (
     <div className="App">
-      {/* <PostComponent /> */}
+      <PostComponent />
       <TodoList />
     </div>
   );
